@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --emerald: #0f2e22;
+  --emerald-deep: #081c15;
+  --gold: #c9a24b;
+  --gold-soft: #e6cd8a;
+  --ivory: #f5efe1;
+  --ink: #1c1a12;
+}
+
+@theme inline {
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+}
+
+body {
+  background: var(--emerald-deep);
+  color: var(--ivory);
+}
